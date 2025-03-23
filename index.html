@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitLife Gym</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">FitLife</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#classes">Classes</a></li>
+            <li><a href="#trainers">Trainers</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Transform Your Body</h1>
+            <p>Start your fitness journey today with the best trainers and equipment</p>
+            <button class="cta-button">Join Now</button>
+        </div>
+    </section>
+
+    <!-- Classes Section -->
+    <section id="classes" class="classes">
+        <h2>Our Classes</h2>
+        <div class="class-grid">
+            <div class="class-card">
+                <i class="fas fa-dumbbell"></i>
+                <h3>Strength Training</h3>
+                <p>Build muscle and increase strength</p>
+            </div>
+            <div class="class-card">
+                <i class="fas fa-running"></i>
+                <h3>Cardio</h3>
+                <p>Improve endurance and burn fat</p>
+            </div>
+            <div class="class-card">
+                <i class="fas fa-yoga"></i>
+                <h3>Yoga</h3>
+                <p>Enhance flexibility and mindfulness</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trainers Section -->
+    <section id="trainers" class="trainers">
+        <h2>Our Expert Trainers</h2>
+        <div class="trainer-grid">
+            <div class="trainer-card">
+                <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Trainer">
+                <h3>John Smith</h3>
+                <p>Strength Training Specialist</p>
+            </div>
+            <div class="trainer-card">
+                <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Trainer">
+                <h3>Sarah Johnson</h3>
+                <p>Yoga Instructor</p>
+            </div>
+            <div class="trainer-card">
+                <img src="https://randomuser.me/api/portraits/men/22.jpg" alt="Trainer">
+                <h3>Mike Wilson</h3>
+                <p>Cardio Expert</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <h2>Membership Plans</h2>
+        <div class="pricing-grid">
+            <div class="pricing-card">
+                <h3>Basic</h3>
+                <div class="price">$29<span>/month</span></div>
+                <ul>
+                    <li>Access to Gym Floor</li>
+                    <li>Basic Equipment Usage</li>
+                    <li>Locker Room Access</li>
+                    <li>2 Group Classes/Month</li>
+                </ul>
+                <button class="pricing-btn">Choose Plan</button>
+            </div>
+            <div class="pricing-card featured">
+                <h3>Premium</h3>
+                <div class="price">$49<span>/month</span></div>
+                <ul>
+                    <li>Full Gym Access</li>
+                    <li>All Equipment Usage</li>
+                    <li>Locker Room Access</li>
+                    <li>Unlimited Group Classes</li>
+                    <li>1 Personal Training Session</li>
+                </ul>
+                <button class="pricing-btn">Choose Plan</button>
+            </div>
+            <div class="pricing-card">
+                <h3>Elite</h3>
+                <div class="price">$79<span>/month</span></div>
+                <ul>
+                    <li>24/7 Gym Access</li>
+                    <li>All Premium Features</li>
+                    <li>Private Locker</li>
+                    <li>Unlimited Group Classes</li>
+                    <li>3 Personal Training Sessions</li>
+                    <li>Nutrition Consultation</li>
+                </ul>
+                <button class="pricing-btn">Choose Plan</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <h2>What Our Members Say</h2>
+        <div class="testimonial-slider">
+            <div class="testimonial-card">
+                <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Member">
+                <p>"Amazing trainers and great atmosphere! I've achieved my fitness goals faster than I expected."</p>
+                <h4>Emily Parker</h4>
+                <span>Member since 2022</span>
+            </div>
+            <div class="testimonial-card">
+                <img src="https://randomuser.me/api/portraits/men/45.jpg" alt="Member">
+                <p>"The variety of classes and equipment is outstanding. Best gym I've ever been to!"</p>
+                <h4>David Chen</h4>
+                <span>Member since 2021</span>
+            </div>
+            <div class="testimonial-card">
+                <img src="https://randomuser.me/api/portraits/women/32.jpg" alt="Member">
+                <p>"Friendly staff and clean environment. I love the yoga classes!"</p>
+                <h4>Sarah Thompson</h4>
+                <span>Member since 2023</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Schedule Section -->
+    <section id="schedule" class="schedule">
+        <h2>Class Schedule</h2>
+        <div class="schedule-container">
+            <div class="schedule-day">
+                <h3>Monday</h3>
+                <div class="schedule-item">
+                    <span class="time">06:00 - 07:00</span>
+                    <span class="class">Morning Yoga</span>
+                    <span class="trainer">Sarah Johnson</span>
+                </div>
+                <div class="schedule-item">
+                    <span class="time">09:00 - 10:30</span>
+                    <span class="class">Strength Training</span>
+                    <span class="trainer">John Smith</span>
+                </div>
+                <div class="schedule-item">
+                    <span class="time">18:00 - 19:00</span>
+                    <span class="class">HIIT</span>
+                    <span class="trainer">Mike Wilson</span>
+                </div>
+            </div>
+            <div class="schedule-day">
+                <h3>Wednesday</h3>
+                <div class="schedule-item">
+                    <span class="time">07:00 - 08:00</span>
+                    <span class="class">Cardio Blast</span>
+                    <span class="trainer">Mike Wilson</span>
+                </div>
+                <div class="schedule-item">
+                    <span class="time">10:00 - 11:00</span>
+                    <span class="class">Pilates</span>
+                    <span class="trainer">Sarah Johnson</span>
+                </div>
+                <div class="schedule-item">
+                    <span class="time">17:00 - 18:30</span>
+                    <span class="class">CrossFit</span>
+                    <span class="trainer">John Smith</span>
+                </div>
+            </div>
+            <div class="schedule-day">
+                <h3>Friday</h3>
+                <div class="schedule-item">
+                    <span class="time">06:30 - 07:30</span>
+                    <span class="class">Power Yoga</span>
+                    <span class="trainer">Sarah Johnson</span>
+                </div>
+                <div class="schedule-item">
+                    <span class="time">09:30 - 10:30</span>
+                    <span class="class">Boxing</span>
+                    <span class="trainer">Mike Wilson</span>
+                </div>
+                <div class="schedule-item">
+                    <span class="time">18:30 - 19:30</span>
+                    <span class="class">Core Training</span>
+                    <span class="trainer">John Smith</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <div class="contact-container">
+            <form id="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <select>
+                    <option value="">Select Membership Type</option>
+                    <option value="basic">Basic</option>
+                    <option value="premium">Premium</option>
+                    <option value="elite">Elite</option>
+                </select>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+            <div class="contact-info">
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>123 Fitness Street, Gym City, GC 12345</p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-phone"></i>
+                    <p>(555) 123-4567</p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <p>info@fitlife.com</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Contact Us</h4>
+                <p>Email: info@fitlife.com</p>
+                <p>Phone: (555) 123-4567</p>
+            </div>
+            <div class="footer-section">
+                <h4>Follow Us</h4>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 FitLife Gym. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <div class="join-modal" id="joinModal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Join FitLife Gym</h2>
+            <form id="joinForm">
+                <input type="text" name="fullName" placeholder="Full Name" required>
+                <input type="email" name="email" placeholder="Email Address" required>
+                <input type="tel" name="phone" placeholder="Phone Number" required>
+                <select name="plan" required>
+                    <option value="">Select Membership Plan</option>
+                    <option value="basic">Basic Plan - $29/month</option>
+                    <option value="premium">Premium Plan - $49/month</option>
+                    <option value="elite">Elite Plan - $79/month</option>
+                </select>
+                <button type="submit" class="submit-btn">Submit Application</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
